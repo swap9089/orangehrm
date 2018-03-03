@@ -11,7 +11,7 @@ import screenshot.screen;
 
 public class loginwidlistner {
 	public void verifylogin() {
-		System.setProperty("WebDriver.geckodriver.driver", "./geckodriver/geckodriver.exe");
+		System.setProperty("WebDriver.gecko.driver", "./geckodriver/geckodriver.exe");
 
 
 		WebDriver dr = new FirefoxDriver();
