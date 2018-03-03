@@ -11,7 +11,7 @@ public class login {
 	@Test(dataProvider="LoginData")
 
 	public void verifylogin(String a,String b){
-		System.setProperty("WebDriver.geckodriver.driver", "./geckodriver/geckodriver.exe");
+		System.setProperty("WebDriver.gecko.driver", "./geckodriver/geckodriver.exe");
 
 		WebDriver dr = new FirefoxDriver();
 		dr.manage().window().maximize();
