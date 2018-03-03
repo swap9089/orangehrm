@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 public class broken {
 	@Test
 	public void brkelink() {
-		System.setProperty("WebDriver.geckodriver.driver", "./geckodriver/geckodriver.exe");
+		System.setProperty("WebDriver.gecko.driver", "./geckodriver/geckodriver.exe");
 
 	WebDriver dr = new FirefoxDriver();
 		dr.get("http://www.google.com/");
