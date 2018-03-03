@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class externallink {
 	@Test
 	public void veriftlink(){
-		System.setProperty("WebDriver.geckodriver.driver", "./geckodriver/geckodriver.exe");
+		System.setProperty("WebDriver.gecko.driver", "./geckodriver/geckodriver.exe");
 
 	WebDriver dr=new FirefoxDriver();
 	dr.get("http://192.168.1.2/orangehrm/symfony/web/index.php/auth/login");					
