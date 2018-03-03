@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class windowhandling {
 	@Test
 	public void verifyadmin() throws Exception {
-		System.setProperty("WebDriver.geckodriver.driver", "./geckodriver/geckodriver.exe");
+		System.setProperty("WebDriver.gecko.driver", "./geckodriver/geckodriver.exe");
 		WebDriver dr = new FirefoxDriver();
 		dr.get("https://www.naukri.com/");
 		String parent = dr.getWindowHandle();
